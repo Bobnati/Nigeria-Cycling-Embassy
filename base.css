@@ -1,0 +1,73 @@
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  color:antiquewhite;
+  font-weight: bold;
+}
+
+img {
+  width: 300px;
+ 
+   margin-top: 20px;
+}
+
+.pagePost, .highlight {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: black;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.pageBody {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.proTip {
+  font-style: italic;
+}
+
+.navigationBar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+  
+  }
+
+  .listElements1, .listElements2,.listElements3,.listElements4 {
+  
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    background-color: blue;
+    color:white;
+    transition: background-color 0.4s, color 0.4s;
+    cursor:pointer;
+  }
+  
+  .listElements1:hover, .listElements2:hover, .listElements3:hover, .listElements4:hover { 
+    background-color: antiquewhite;
+    color: blue;
+  }   
+
+  .pageLinks {
+    text-decoration: none;
+    font-weight: bold;
+    color:#ffffff;
+    padding:10px;
+  }
+
+  .subHeadings1 {
+    background-color: black;
+  }
+
+.subHeadings2 {
+  font-weight: 100;
+}
+  
