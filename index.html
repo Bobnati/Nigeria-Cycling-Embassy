@@ -2,14 +2,11 @@
 <html>
 <head> 
 <title>Welcome To Nigeria Cycling Embassy</title>
+<link rel="icon" href="main-image.jpg" type="NCElogo">
+
+
 <style>
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #1c1c1c;
-    color: #ffffff;
-    margin: 0;
-    padding: 0;
-  }
+ 
 
   h1 {
     text-align: center;
@@ -17,9 +14,10 @@
     color: #007BFF;
   }
 
-  img {
+ .mainImage {
     display: block;
     margin: 0 auto;
+    margin-top: 20px;
     width: 300px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -31,24 +29,48 @@
     margin: 20px 0;
   }
 
-  a {
-    color: #007BFF;
+  .pageLinks {
     text-decoration: none;
     font-weight: bold;
+    color:#ffffff;
+    padding:10px;
   }
 
-  a:hover {
-    text-decoration: underline;
+  .postLink {
+    text-decoration: none;
+    color:rgb(41, 41, 212);
+    font-weight: bold;
+
   }
+
+
+
+
+
+  
 </style>
+
+<link href="base.css" rel="stylesheet">
 </head>
 <body>
 <h1>Welcome To Nigeria Cycling Embassy</h1>
-<img src="https://scontent.flos1-2.fna.fbcdn.net/v/t39.30808-6/307170009_483677930440260_7338510651950627608_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHJmXcX0H-KYcs4T_NQ8IGpGdLnVWnsCY0Z0udVaewJjfouED2q2oM1NK-dRipKID1P3BWMRRCUX3iubnrThUer&_nc_ohc=okdh7FRebQ4AX9vtlLg&_nc_oc=AQlweHkmUgxuAwhUCl-UBZd3fQTcAMsCfu2mZOJ2lR8fRf_t9Y6urgQVzLH36ajeHS0&_nc_zt=23&_nc_ht=scontent.flos1-2.fna&oh=00_AfC4EhOLi90iJwGhOJmdmYme_BsYZQeJ7JkJBtNL5yrWCQ&oe=64F1A4F6" alt="Cycling Image">
+
+<div class="navigationBar">
+  <a class="pageLinks" href="index.html"> <p class="listElements1"> Home</p></a>
+  <a class="pageLinks" href="00-All-posts.html"><p class="listElements2">Posts </p></a>
+  <a class="pageLinks"> <p class="listElements3">Contact Us</p></a>
+  <a class="pageLinks"> <p class="listElements4">About</p></a>
+</div>
+
+<div class="welcomeAddress"></div>
+<img src="main-image.jpg" class="mainImage" alt="Cycling Image">
 <p>Cycling is the most efficient form of transport and all cyclists have the right to use the road just like any other vehicle.</p>
 <p>However, this means that cyclists must learn the road rules and signals to keep themselves and other road users safe from unwanted incidents.</p>
 <p>At Nigeria Cycling Embassy, we are committed to creating a strong cycling community in Nigeria and empowering cyclists in Nigeria with important information.</p>
 <p>To be safe and efficient</p>
-<p>You can read more posts about Nigeria cycling <a href="00-All-posts.html">here</a></p>
+<p>You can read more posts about Nigeria cycling <a class="postLink" href="00-All-posts.html">here</a></p>
+
+
+</div>
 </body>
 </html>
