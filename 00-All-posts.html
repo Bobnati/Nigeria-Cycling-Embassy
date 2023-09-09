@@ -2,14 +2,43 @@
 <html>
 <head>
 <title> All posts | Nigeria Cycling Embassy </title>
+<link rel="icon" href="main-image.jpg" type="NCElogo">
     <style>
+
+
+button {  
+background-color: rgb(35, 35, 128);
+color:white;
+border:none;
+border-radius: 20px;  
+cursor: pointer;
+padding: 20px;
+margin: 5px;
+font-weight: bold;
+transition: background-color 0.50s, color 0.50s, opacity 0.4s;
+border-style: solid;
+border-width: 2px;
+
+}
+
+
+button:hover { 
+background-color: rgb(201, 204, 221);
+color: rgb(14, 14, 71);
+
+}
+
+button:active {
+  opacity: 0.4;
+}
+
+
 body {
     font-family: Arial, sans-serif;
-    background: black;
+    background-color: black;
     color: #ffffff;
     margin: 0;
     padding: 0;
-    font-weight: bold;
   }
 
   h1 {
@@ -18,7 +47,13 @@ body {
     color: #007BFF;
   }
 
-  img {
+  a {
+    text-decoration: none;
+    color:blue;
+    font-weight: bold;
+  }
+
+  .homePageImage {
     display: block;
     margin: 0 auto;
     width: 300px;
@@ -26,43 +61,77 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
-  p {
+  .lightsImage { 
+    width: 300px;
+  }
+
+  p {  
     text-align: center;
     line-height: 1.6;
     margin: 20px 0;
   }
 
-  a {
-    color: #007BFF;
+  .homePagePosts {
+    color: #107bee;
     text-decoration: none;
     font-weight: bold;
   }
 
-  a:hover {
+  .homePagePosts:hover {
     text-decoration: underline;
+    color: rgb(50, 154, 223);
   }
 
+  .firstSet {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
     </style>
+
+    <link href="base.css" rel="stylesheet">
 
 
 </head>
 
 <body>
-<img src="https://scontent.flos1-2.fna.fbcdn.net/v/t39.30808-6/307170009_483677930440260_7338510651950627608_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHJmXcX0H-KYcs4T_NQ8IGpGdLnVWnsCY0Z0udVaewJjfouED2q2oM1NK-dRipKID1P3BWMRRCUX3iubnrThUer&_nc_ohc=okdh7FRebQ4AX9vtlLg&_nc_oc=AQlweHkmUgxuAwhUCl-UBZd3fQTcAMsCfu2mZOJ2lR8fRf_t9Y6urgQVzLH36ajeHS0&_nc_zt=23&_nc_ht=scontent.flos1-2.fna&oh=00_AfC4EhOLi90iJwGhOJmdmYme_BsYZQeJ7JkJBtNL5yrWCQ&oe=64F1A4F6" >
-<p><a href="01-Rear-lights.html"> Rear Lighting </a></p>
-<p><a href="02-Head-lights.html"> Head Lights</a> </p></p>
-<p><a href="04-Helmets.html"> Helmets</a></p>
-<p><a href="05-Tubeless-tires-flats.html">Tubeless Tire Flats</a></p>
-<p><a href="06-Tubular-tires.html"> Tubular tires</a></p>
 
+<div class="navigationBar">
+  <a class="pageLinks" href="index.html"> <p class="listElements1"> Home</p></a>
+  <a class="pageLinks" href="00-All-posts.html"><p class="listElements2">Posts </p></a>
+  <a class="pageLinks"> <p class="listElements3">Contact Us</p></a>
+  <a class="pageLinks"> <p class="listElements4">About</p></a>
+</div>
 
+<img src="main-image.jpg" class="homePageImage">
 
-<p><a href="07-Tire-maintenance.html"> Tire Maintenance</a></p>
-<p><a href="08-Brakes.html">Brakes</a></p>
-<p><a href="09-Bicycle-Tires.html"> Bicycle Tires</a></p>
-<p><a href="10-Clincher-Tires.html"> Clincher Tires</a></p>
-<p><a href="11-Cycling-Shoes.html">Cycling Shoes</a></p>
-<p><a href="12-Reflective-Clothing.html">Reflective Clothing</a></p>
-<p><a href="13-Reflective-Stickers.html"> Reflective Stickers</a></p>
-</body>
+ <div class="firstSet"> 
+
+  <div><p><a class="homePagePosts" href="04-Helmets.html"> Helmets</a></p>  </div>
+
+  <div><p><a class="homePagePosts" href="08-Brakes.html">Brakes</a></p> </div>
+
+  <div><p><a class="homePagePosts" href="02-Head-lights.html"> Head Lights</a> </p></p>  </div>
+
+  <div><p><a class="homePagePosts" href="03-Gravel-bikes.html"> Gravel Bikes </a></p>  </div>
+
+  <div><p><a class="homePagePosts" href="05-Tubeless-tires-flats.html">Tubeless Tire Flats</a></p>  </div>
+       
+  <div><p><a class="homePagePosts" href="06-Tubular-tires.html"> Tubular tires</a></p>  </div> 
+    
+  <div><p><a class="homePagePosts" href="07-Tire-maintenance.html"> Tire Maintenance</a></p>  </div>
+    
+  <div><p><a class="homePagePosts" href="09-Bicycle-Tires.html"> Bicycle Tires</a></p> </div>
+    
+  <div><p><a class="homePagePosts" href="10-Clincher-Tires.html"> Clincher Tires</a></p> </div>
+    
+  <div> <p><a class="homePagePosts" href="01-Rear-lights.html"> Rear Lights </a></p> </div> 
+              
+  <div><p><a class="homePagePosts" href="11-Cycling-Shoes.html">Cycling Shoes</a></p> </div>
+                
+  <div><p><a class="homePagePosts" href="12-Reflective-Clothing.html">Reflective Clothing</a></p> </div>
+                  
+  <div><p><a class="homePagePosts" href="13-Reflective-Stickers.html"> Reflective Stickers</a></p> </div>
+</body> 
+</div>
+
 </html>
