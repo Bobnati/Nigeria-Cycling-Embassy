@@ -34,7 +34,11 @@
     line-height: 1.6;
     margin-bottom: 20px;
   }
-
+.imageContainer {
+  max-width: 600px;
+  height: 500px;
+  overflow: hidden;
+}
   .highlight {
     background-color: black;
     padding: 10px;
@@ -45,11 +49,11 @@
   }
 
   .helmetImage {
-    width:300px;
-    height: 400px;
+    width:100%;
+
   }
   .manImage {
-    width: 300px;
+    width: 60%;
   }
 </style>
 </head>
@@ -67,7 +71,8 @@
    <div class="content">
       <p class="highlight">THE MAGICAL BIKE HELMET</p>
 
-      <img class="helmetImage" src="black-helmet.jpg" alt="black helmet image">
+      <div class="imageContainer">
+      <img class="helmetImage" src="black-helmet.jpg" alt="black helmet image"></div>
 
       <p>It is one of the hottest questions in the Global cycling community.
       Should cyclists wear bicycle helmets? Let's talk about this head-breaking (pun intended) topic.
