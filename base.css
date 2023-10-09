@@ -10,7 +10,8 @@ img {
   height: 400px;
    margin-top: 20px;
    object-fit: contain;
-   
+   object-position: bottom;
+    
 }
 
 .pagePost, .highlight {
