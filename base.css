@@ -43,8 +43,7 @@ button:hover {
   }
   
   .wrapImages {
-    width: 400px;
-    height: 300px;
+    width: 60%;
     margin: 0 auto;
     overflow: hidden;
   }
