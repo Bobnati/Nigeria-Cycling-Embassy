@@ -92,12 +92,9 @@ button:hover {
     margin:0;
     padding:0;
     overflow: scroll;
-    overflow-x: hidden;
-    overflow-y: hidden;
   }
 
   .listElements1, .listElements2,.listElements3,.listElements4 {
-  
     border-radius: 8px;
     padding: 20px;
     margin: 10px;
@@ -127,4 +124,3 @@ button:hover {
 .subHeadings2 {
   font-weight: 100;
 }
-  
