@@ -96,7 +96,7 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background: linear-gradient(to right, black, blue, black);
+  background: linear-gradient(to right, black, rgb(44, 44, 118), black);
   box-shadow: 0 0 10px rgb(72, 72, 159);
   border-radius: 8px;
   margin: 10px 0;
