@@ -1,88 +1,75 @@
 <!DOCTYPE html>
-<html>
-<head> 
-<title>Welcome To Nigeria Cycling Embassy</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
 
-<link rel="icon" href="images/main-image.jpg" type="NCElogo">
+<head>
+  <title>Welcome To Nigeria Cycling Embassy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-S1BN4K9VV8"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <link rel="icon" href="images/main-image.jpg" type="NCElogo">
 
-  gtag('config', 'G-S1BN4K9VV8');
-</script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-S1BN4K9VV8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-<style>
- 
+    gtag('config', 'G-S1BN4K9VV8');
+  </script>
 
-  h1 {
-    text-align: center;
-    padding: 40px 0;
-    color: #007BFF;
-  }
-
- .mainImage {
-    display: block;
-    margin: 0 auto;
-    margin-top: 20px;
-    width: 300px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-
-  p {
-    text-align: center;
-    line-height: 1.6;
-    margin: 20px 0;
-  }
-
-  .pageLinks {
-    text-decoration: none;
-    font-weight: bold;
-    color:#ffffff;
-    padding:10px;
-  }
-
-  .postLink {
-    text-decoration: none;
-    color:rgb(41, 41, 212);
-    font-weight: bold;
-
-  }
-
-
-
-
-
-  
-</style>
-
-<link href="base.css" rel="stylesheet">
+  <link href="styles/index.css" rel="stylesheet">
+  <!-- <link href="base.css" rel="stylesheet"> -->
 </head>
+
 <body>
-<h1>Welcome To Nigeria Cycling Embassy</h1>
+  <h1 class="pageHeader">Welcome To Nigeria Cycling Embassy</h1>
 
 
-<div class="navigationBar">
-  <a class="pageLinks" href="index.html"> <p class="listElements1"> Home</p></a>
-  <a class="pageLinks" href="00-All-posts.html"><p class="listElements2">Posts </p></a>
-  <a class="pageLinks"> <p class="listElements3">Contact Us</p></a>
-  <a class="pageLinks" href="About-us.html"> <p class="listElements4">About</p></a>
-</div>
+  <div class="navigationBar">
+    <a class="pageLinks" href="index.html">
+      <p class="listElements1"> Home</p>
+    </a>
+    <a class="pageLinks" href="00-All-posts.html">
+      <p class="listElements2">Posts </p>
+    </a>
+    <a class="pageLinks">
+      <p class="listElements3">Contact Us</p>
+    </a>
+    <a class="pageLinks" href="About-us.html">
+      <p class="listElements4">About</p>
+    </a>
+  </div>
 
-<div class="welcomeAddress"></div>
-<img src="images/main-image.jpg" class="mainImage" alt="Cycling Image">
-<p>Cycling is the most efficient form of transport and all cyclists have the right to use the road just like any other vehicle.</p>
-<p> This means that cyclists must learn the road rules and signals to keep themselves and other road users safe from unwanted incidents.</p>
-<p>At Nigeria Cycling Embassy, we are committed to creating a strong cycling community in Nigeria and empowering cyclists in Nigeria with important information.</p>
-<p>To be safe and efficient</p>
-<p>You can read more posts about Nigeria cycling <a class="postLink" href="00-All-posts.html">here</a></p>
+  <div class="welcomeAddress"></div>
+  <div class="imgWrapper">
 
+    <img src="images/main-image.jpg" class="mainImage" alt="Cycling Image">
 
-</div>
+  </div>
+  <div class="section-1-text">
+    <p>
+      Cycling is the most efficient form of transport and all cyclists have the right to use the road just like any
+      other
+      vehicle.
+    </p>
+
+    <p class="text-1">
+      This means that cyclists must learn the road rules and signals to keep themselves and other road users safe from
+      unwanted incidents.
+    </p>
+
+    <p clas="text-2">
+      At Nigeria Cycling Embassy, we are committed to creating a strong cycling community in Nigeria and empowering
+      cyclists in Nigeria with important information to be safe and efficient
+    </p>
+
+    <p class="text-3">
+      You can read more posts about Nigeria cycling <a class="postLink" href="00-All-posts.html">here</a>
+    </p>
+
+  </div>
+
+  <script type="module" src="js-files/index.js"></script>
 </body>
+
 </html>

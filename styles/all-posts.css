@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+}
+
+.homePagePosts {
+    color: #107bee;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.homePagePosts:hover {
+    text-decoration: underline;
+    color: rgb(50, 154, 223);
+}
+
+.firstSet {
+    text-align: center;
+    gap: 10px;
+}
+
+.firstSet div {
+
+    box-shadow: 0 2px 5px rgb(50, 50, 237);
+
+    border-radius: 8px;
+
+    padding: 4px 8px;
+
+}
